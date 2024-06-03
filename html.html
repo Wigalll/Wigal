@@ -5,55 +5,68 @@
     <title></title>
 </head>
 <body>
-<form action="#" method="post" enctype="multipart/form-data"></form>
+<form action="#" method="post" enctype="multipart/form-data">
 <div>
-<input type="tel" name="username" value=""/>
-</div> <div>
-<input type="password" name="userpass" value="" />
-</div>
-<div>
-    <p><input checked type="radio" name="Frut" value="apple green" /> Яблочный зелёный сок </p>
-    <p><input type="radio" name="Frut" value="apple red" /> Яблочный красный сок </p>
-</div>
-<br/>
-<div>
-    <p><input type="radio" name="Frut2" value="apple green" /> Яблочный зелёный сок </p>
-    <p><input checked type="radio" name="Frut2" value="apple red" /> Яблочный красный сок </p>
-</div>
-<br/>
-<div>
-    <p><input type="checkbox" name="ff1" value="yes"/> Яблочный зелёный сок 1 </p>
-    <p><input checked type="checkbox" name="ff2" value="yes" /> Яблочный зелёный сок 2 </p>
-    <p><input type="checkbox" name="ff3" value="yes" /> Яблочный зелёный сок 3 </p>
-    <p><input type="checkbox" name="ff4" value="yes" /> Яблочный зелёный сок 4 </p>
-</div>
-<br/>
-<div>
-    <p><input type="file" name="foto"/></p>
+    <p>Имя</p>
     </div>
-    <br/>
-    <div>
-        <textarea name="text" ></textarea>
-    </div>
-<br/>
 <div>
-    <select name="color">
-        <option value="red">Красный</option>
-        <option selected value="yellow">Желтый</option>
-        <option value="blue">Голубой</option>
+        <input type="text" name="Name" value="">
+</div>
+<div>
+    <p>Пароль</p>
+</div>
+<div>
+    <input type="password" name="Password" value="">
+</div>
+<div>
+    <p>Телефон</p>
+</div>
+<div>
+    <input type="tel" name="Tel" value="">
+</div>
+<div>
+    <p>Пол</p>
+</div>
+<div>
+    <p><input checked type="radio" name="tip" value="men"> Мужской </p>
+    <p><input type="radio" name="tip" value="wom"> Женский </p>
+</div>
+<div>
+<p>Имущество</p>
+</div>
+<div>
+    <p><input checked type="checkbox" name="velik" value=""> Велик </p>
+    <p><input type="checkbox" name="car" value=""> Машина </p>
+    <p><input type="checkbox" name="house" value=""> Квартира </p>
+</div>
+<div>
+    <p>Дополнительная информация</p>
+</div>
+<div>
+    <textarea name="text"></textarea>
+</div>
+<div>
+    <p>Прикрепить фото</p>
+</div>
+<div>
+    <input type="file" name="foto" value="">
+</div>
+<div>
+    <p>Любимый цвет</p>
+</div>
+<div>
+    <select name="colour">
+        <option value="g">Зелёный</option>
+        <option value="r">Красный</option>
+        <option selected value="b">Чёрный</option>
     </select>
 </div>
-<br/>
 <div>
-    <select multiple name="color">
-        <option value="red">Красный</option>
-        <option value="yellow">Желтый</option>
-        <option value="blue">Голубой</option>
-    </select>
+    <p>Действия</p>
 </div>
-<br />
 <div>
-    <button type="reset">Отправить</button>
+    <button type="button">Отправить</button> <button type="reset">Очистить</button>
 </div>
+</form>
 </body>
 </html>
