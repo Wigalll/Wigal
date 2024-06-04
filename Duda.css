@@ -35,51 +35,61 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
-
-
-
-
-.arial{
-    font-family: arial, sans-serif;
+body{
+    font-family: Arial sans-serif;
 }
 
-.fontsize30{
-    font-size: 30px;
-}
+h1{
+ font-size: 30px;
+    color: #445161;
 
-.italic{
-    font-style: italic;
 }
-.font700{
-    font-weight: 700;
+h2{
+color: #445161;
+    font-size: 25px;
 }
-.colorred{
-    color: #FF0000;
+.text{
+color: #333333;
+    line-height: 25px;
 }
-.textright{
-    text-align: center;
+.text2{
+font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+    line-height: 14px;
 }
-.decoration{
-    text-decoration: line-through;
+.textred{
+color: #ff0000;
 }
-.shadow{
-    text-shadow: 1px 1px 10px #000;
+h3{
+    color: #445161;
+    font-size: 23px;
 }
-.uppercase{
+.t3{
+text-align: right;
+}
+.t4{
     text-transform: uppercase;
 }
-.ident{
-    text-indent: 50px;
+.t5{
+font-style: italic;
 }
-.lspace{
-    letter-spacing: 5px;
+.t6{
+text-decoration: underline;
 }
-.wspace{
-    word-spacing: 5px;
+.t7{
+text-align: center;
 }
-.whitespace{
-    white-space: normal;
+.t8{
+font-size: 25px;
+    font-weight: 500;
 }
-.lineheight{
-  line-height: 20px;
+.t9{
+text-decoration: line-through;
+}
+.t10{
+font-size: 15px;
+}
+.t11{
+text-shadow: 1px 1px 2px #000000;
 }
